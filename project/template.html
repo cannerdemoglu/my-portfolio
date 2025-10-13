@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../style/main.css" rel="stylesheet"/>
+<script src="../script/tailwind.config.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-4">
+<div class="w-8 h-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold text-gray-900 dark:text-white">Muhammed Can Erdemoğlu</h2>
+</div>
+<div class="flex items-center gap-8">
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="../index.html">Ana Sayfa</a>
+<a class="text-sm font-medium text-primary" href="../projects.html">Projeler</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="../about-me.html">Hakkımda</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="../contact.html">İletişim</a>
+</nav>
+<div class="w-10 h-10 rounded-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAdZzwHe7WuRcaCe45gDTEiCU_0D0Clr2eMrWYZH2wpY0_etPwFGnuq_DzZAnziuel2epXmohpltkWBNWipqk5lrgjc0voyzt0bU1JNEbfX2WdPXDNWLLeQRY6cMkbaQLmjGYW79ERn3xYY5sBZ5aIjHW48QXH32maVZqnLjtnmUv9Ono_FvIPb7TJf13Z9BsnZhnBjMgphJIna2dXDPb-qBrWWymTuCl02hChzU-mDHrHjrqrFyRk9DuH4F18OK-QrUKSvHq4u82A");'></div>
+</div>
+</div>
+</div>
+</header>
+<button class="md:hidden inline-flex items-center justify-center rounded-lg h-10 w-10 m-4 self-end text-gray-800 dark:text-gray-200 hover:bg-gray-200/70 dark:hover:bg-gray-800/70" aria-controls="mobile-menu" aria-expanded="false" data-mobile-menu-toggle>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+</button>
+<nav id="mobile-menu" class="md:hidden hidden px-6 py-4 border-b border-gray-200 dark:border-gray-800 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur">
+  <div class="flex flex-col gap-3">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../index.html">Ana Sayfa</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+  </div>
+</nav>
+<main class="flex-1">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+<div class="max-w-4xl mx-auto">
+<div class="mb-10">
+<h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Interactive Data Visualization Dashboard</h1>
+<p class="text-lg text-gray-600 dark:text-gray-400">This project is an interactive data visualization dashboard designed to provide users with a dynamic and engaging way to explore complex datasets. Built with React and D3.js, it allows users to filter, sort, and visualize data through various chart types. The dashboard also features real-time data updates and a responsive design.</p>
+</div>
+<div class="mb-12">
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Technologies Used</h3>
+<div class="flex flex-wrap gap-3">
+<div class="bg-primary/10 text-primary font-medium px-4 py-2 rounded-full text-sm">React</div>
+<div class="bg-primary/10 text-primary font-medium px-4 py-2 rounded-full text-sm">D3.js</div>
+<div class="bg-primary/10 text-primary font-medium px-4 py-2 rounded-full text-sm">JavaScript</div>
+<div class="bg-primary/10 text-primary font-medium px-4 py-2 rounded-full text-sm">HTML5</div>
+<div class="bg-primary/10 text-primary font-medium px-4 py-2 rounded-full text-sm">CSS3</div>
+</div>
+</div>
+<div class="mb-12">
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Project Demo</h3>
+<div class="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCdhiP9XNdbfT0RsPmD0t-v3ou3FZypojYr_TibjG6cx-eZNwnxlAwH34emAfBH5Fza9xYSERIuaSG3blDyTqA0xE-VnGFc_SVAQaQWzb45aFzqPfDbhDX33Q-43U9zsGX1dwI9fbZ5fJ-ymBTvxvPHFXo36lCAgf61Gg9m7HAwkUJrpObS9q7FJqjb2COOtKMYoPKgvskj-axO6Ll-mCYajT_naUotX0wmNRulOBhM_B5QRt8607bu6MWBtpJUtqdZuX-gtHIQNTM");'></div>
+<div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+<button class="flex items-center justify-center w-20 h-20 rounded-full bg-white/20 backdrop-blur-sm text-white hover:bg-white/30 transition-colors">
+<svg fill="currentColor" height="48" viewBox="0 0 256 256" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-12">
+<div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Project Details</h3>
+<div class="space-y-4">
+<div class="grid grid-cols-2 gap-4 py-4 border-b border-gray-200 dark:border-gray-800">
+<p class="font-semibold text-gray-600 dark:text-gray-400">Project Type</p>
+<p class="text-gray-900 dark:text-white">Web Application</p>
+</div>
+<div class="grid grid-cols-2 gap-4 py-4 border-b border-gray-200 dark:border-gray-800">
+<p class="font-semibold text-gray-600 dark:text-gray-400">Date</p>
+<p class="text-gray-900 dark:text-white">Summer 2023</p>
+</div>
+<div class="grid grid-cols-2 gap-4 py-4 border-b border-gray-200 dark:border-gray-800">
+<p class="font-semibold text-gray-600 dark:text-gray-400">Role</p>
+<p class="text-gray-900 dark:text-white">Lead Developer</p>
+</div>
+</div>
+<div class="mt-8 flex flex-wrap gap-4">
+<button class="bg-primary text-white font-bold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity">View Live Project</button>
+<button class="bg-primary/10 dark:bg-primary/20 text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors">View Source Code</button>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Lessons Learned</h3>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Throughout this project, I gained valuable experience in integrating React with D3.js for interactive visualizations. I also improved my skills in data manipulation, state management, and creating responsive web designs. One key takeaway was the importance of optimizing data processing for real-time updates to ensure smooth user interactions.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="border-t border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-6 lg:px-8 py-6 text-sm text-slate-600 dark:text-slate-400">
+<div class="container mx-auto flex items-center justify-between">
+<p> 2025 Muhammed Can Erdemoğlu</p>
+<nav class="flex items-center gap-6">
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+</nav>
+</div>
+</footer>
+<script src="../script/main.js"></script>
+
+</body></html>

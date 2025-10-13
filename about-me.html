@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style/main.css" rel="stylesheet"/>
+<script src="script/tailwind.config.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-gray-200/50 dark:border-gray-700/50 px-10 py-4">
+<div class="flex items-center gap-3 text-gray-900 dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h1 class="text-xl font-bold">Muhammed Can Erdemoğlu</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCSIIyZ5gVOudwdfCaJf4vRIlNJ2mVoIUv0i2IJ8aLrJbgI-YWVvw6eGh6nx0CzyR1jHgq5qaCY7OFIW4kPZkvdw6OtY-kne0imz9d9CGoaE5PLhUOvKoItgCkWWWhbg8Fk-hnE9NHWJXq3HMpxWKCoQspnkgzi0FrkXM1qg7HwUaaecgvWzJ2rzABgq60lm3mLfaqmqA6uYBNPEzISXx97zcf2t9fZl7ucyNe7VdEY1zmTriotKkoc-94Sh5cOL6hUdKBFo7_1x5k");'></div>
+</nav>
+<button class="md:hidden inline-flex items-center justify-center rounded-lg h-10 w-10 text-gray-800 dark:text-gray-200 hover:bg-gray-200/70 dark:hover:bg-gray-800/70" aria-controls="mobile-menu" aria-expanded="false" data-mobile-menu-toggle>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+</button>
+</header>
+<nav id="mobile-menu" class="md:hidden hidden px-6 py-4 border-b border-gray-200/50 dark:border-gray-700/50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur">
+  <div class="flex flex-col gap-3">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+  </div>
+</nav>
+<main class="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="md:col-span-1 flex flex-col items-center text-center">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-40 h-40 mb-4" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAdlLsPiDRbput6TXVxSEci1CePiUDhy8HM_SwM-Mn8kD6AXJ-_ODp1NJ4UaX7s_cHAkWNhuFJHb7h_zmQJOkvI2nufX0AZ6NNRtlGfkd-ozoIsEFg3JH0YBVZ3elnYwG0aP2kwKe700vFo_9Vbv5_MylOyBQXI_NG34QaKTXUgg6GJGQZ1gGXNcK1O6l1m1XlEPUj4R9Mh-ZxqNYe8SnCX8vZZuMuWxtSTL7sC33eUxoYpTIA8tBJy3ZfreQ95JuImM-xO5Iw2Yr8");'></div>
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white">Sophia Chen</h2>
+<p class="text-md text-primary font-medium">Aspiring Software Engineer</p>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Passionate about creating innovative solutions through code.</p>
+</div>
+<div class="md:col-span-2 space-y-10">
+<section>
+<h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-white border-b border-gray-200/50 dark:border-gray-700/50 pb-2">About Me</h3>
+<p class="text-base text-gray-700 dark:text-gray-300 leading-relaxed">I am a computer science student at Tech University, specializing in software development. My journey into programming began with a fascination for problem-solving and a desire to build impactful applications. I am particularly interested in web development, mobile app development, and machine learning.</p>
+</section>
+<section>
+<h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-white border-b border-gray-200/50 dark:border-gray-700/50 pb-2">Education</h3>
+<div class="flex items-center gap-4">
+<div class="flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 shrink-0 size-12 text-primary">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path>
+</svg>
+</div>
+<div>
+<p class="font-semibold text-gray-900 dark:text-white">Tech University</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">2021 - 2025</p>
+</div>
+</div>
+</section>
+<section>
+<h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-white border-b border-gray-200/50 dark:border-gray-700/50 pb-2">Work Experience</h3>
+<div class="flex gap-4">
+<div class="flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 shrink-0 size-12 text-primary">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path>
+</svg>
+</div>
+<div>
+<p class="font-semibold text-gray-900 dark:text-white">Software Engineering Intern at Innovate Solutions</p>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Summer 2023</p>
+<p class="text-base text-gray-700 dark:text-gray-300 mt-2 leading-relaxed">Developed a responsive web application for a local business using React and Node.js. Collaborated with a team of developers to implement new features and improve user experience.</p>
+</div>
+</div>
+</section>
+<section>
+<h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-white border-b border-gray-200/50 dark:border-gray-700/50 pb-2">Skills</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">JavaScript</span>
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">Python</span>
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">React</span>
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">Node.js</span>
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">HTML</span>
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">CSS</span>
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">SQL</span>
+<span class="px-3 py-1 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary">Git</span>
+</div>
+</section>
+<section>
+<h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-white border-b border-gray-200/50 dark:border-gray-700/50 pb-2">Interests</h3>
+<p class="text-base text-gray-700 dark:text-gray-300 leading-relaxed">Outside of coding, I enjoy participating in hackathons, contributing to open-source projects, and exploring new technologies. I am also an avid reader and enjoy hiking in my free time.</p>
+</section>
+</div>
+</div>
+</main>
+<footer class="border-t border-slate-200/80 dark:border-slate-800/80 px-10 py-6 text-sm text-slate-600 dark:text-slate-400">
+<div class="flex items-center justify-between">
+<p> 2025 Muhammed Can Erdemoğlu</p>
+<nav class="flex items-center gap-6">
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+</nav>
+</div>
+</footer>
+<script src="script/main.js"></script>
+</body></html>

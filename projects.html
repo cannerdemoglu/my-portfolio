@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style/main.css" rel="stylesheet"/>
+<script src="script/tailwind.config.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="flex min-h-screen flex-col">
+<header class="sticky top-0 z-10 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm shadow-sm">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2" href="index.html">
+<svg class="h-8 w-8 text-primary" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+</svg>
+<span class="text-xl font-bold text-gray-900 dark:text-white">Muhammed Can Erdemoğlu</span>
+</a>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path>
+</svg>
+</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
+</svg>
+</a>
+<div class="h-10 w-10 rounded-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0Ln5TEKSoHk1wkuLvjgJHaRYcstooLwgIbxRmSMemU-rSu8H4Ng_oS5ZRH7m6QvItugUudrlnb2yPxplxw09QskWk69D3CuEV1AWRllhYn85LjDMD-9nAs8vn0aM7dLEv258-a9Qzwc5vLJUeHBOKfhDeymbKrbxO1ZGrAmsyHd2XtUbRobh50uSY7oceAMaj0JfHMapPp2T3Xa0n90WKeiO2MN8elS_5aXYGpLi5RNPSX2pI2Zqcxvu34V6DajM_il2LBS516SY");'></div>
+</div>
+</div>
+</div>
+</header>
+<button class="md:hidden inline-flex items-center justify-center rounded-lg h-10 w-10 m-4 self-end text-gray-800 dark:text-gray-200 hover:bg-gray-200/70 dark:hover:bg-gray-800/70" aria-controls="mobile-menu" aria-expanded="false" data-mobile-menu-toggle>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+</button>
+<nav id="mobile-menu" class="md:hidden hidden px-6 py-4 border-b border-slate-200/80 dark:border-slate-800/80 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur">
+  <div class="flex flex-col gap-3">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+  </div>
+</nav>
+<main class="flex-1">
+<section class="py-16 sm:py-20 lg:py-24">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-3xl mx-auto text-center">
+<h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:text-6xl">Öne Çıkan Projeler</h1>
+<p class="mt-4 text-lg text-gray-600 dark:text-gray-300">Yazılım geliştirme alanındaki becerilerimi ve deneyimimi gösteren projelerin bir seçimi.</p>
+</div>
+<div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+<div class="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:-translate-y-1">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+<img alt="E-ticaret Platformu" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpqW4PgJ3QtBUdVIydaio6DVvUSDc9Nxi2piz_UB919FTsFXJCf4RzR6dBEnGmOGBTPB3yfyN8by23kNXpwtv4-bfj6Hoc80RenGWVXMbzwTdaldJnNJdAmoMlzvdM85ZHqdM9ByfkbKVTnguyUnmTiyCTR1rnXJ9T1fywCT2RlJZrmM4EoMwst3RFLYLGItPFOsX0CkMUGwbEHrjAmu63YQX7uEk9HpHd8P6qIpNVwtoscgRix6_ujcTgdvlGztomTdoOAz-DswM"/>
+<div class="absolute bottom-0 p-6">
+<h3 class="text-xl font-bold text-white">E-ticaret Platformu</h3>
+<p class="mt-2 text-sm text-gray-200">Kullanıcı doğrulaması, ürün kataloğu, alışveriş sepeti ve ödeme ağ geçidi entegrasyonu ile tam özellikli bir e-ticaret platformu.</p>
+<a class="mt-4 inline-block text-sm font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 transition-colors hover:text-primary" href="#">Detayları Görüntüle</a>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:-translate-y-1">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+<img alt="Veri Analizi Panosu" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH67Ggh01yInTQEqZEq7G-FdMWy53_fi_2wVLrTHFJxd149MO8A9KWXkVwGN2mD0EeuO8H3B1-SWgfaUn827AJXCzqM-FPMA8soMt6iG4M2XxSzFHdZoFruDocGaAsZHfDVMDYGptlT8zUqMgBdDk8QElkHSdMvXl9rvevMhn-jF_oAhtE9_P0bAQdfFiKQgIsvkzAVYzfCVhnSeTMIX9haHb8cqtjwAfEPP6kDpE2l67uabmVveQMZdcAQPk_0CF9DAWOtwkPL2A"/>
+<div class="absolute bottom-0 p-6">
+<h3 class="text-xl font-bold text-white">Veri Analizi Panosu</h3>
+<p class="mt-2 text-sm text-gray-200">Satış verilerini analiz etmek, trendleri görselleştirmek ve raporlar oluşturmak için etkileşimli bir panodur.</p>
+<a class="mt-4 inline-block text-sm font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 transition-colors hover:text-primary" href="#">Detayları Görüntüle</a>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:-translate-y-1">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+<img alt="Fitness Takip Uygulaması" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrtE6gJpAUeJcGf9KV_8w3LYCWd8br2O9o99rxw1XWV5h5Vd_d2Lbq3ec_Ob_ucxyW-a9LCTBwBj7i75O7WU0M8q5TJnlo8NYEeLetELb93eKEMUFoacR6NYEJEK9ydMiEgvFuyilwFB1yGaRtdK_5L3TTrMOw5_releMGB2hPS4dZNg-Skk_nFlazRKmwq8o7mVWRsJQC43by5QCck_ckwftSV3kWcjqdcAM-VOXKPGbE1BKR4HJdLJKDMFjw9Tmq2NcQvz-ZsuE"/>
+<div class="absolute bottom-0 p-6">
+<h3 class="text-xl font-bold text-white">Fitness Takip Uygulaması</h3>
+<p class="mt-2 text-sm text-gray-200">Fitness aktiviteleri takip etmek, hedefler belirlemek ve ilerlemeyi izlemek için mobil bir uygulamadır.</p>
+<a class="mt-4 inline-block text-sm font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 transition-colors hover:text-primary" href="#">Detayları Görüntüle</a>
+</div>
+</div>
+</div>
+<div class="mt-16 text-center">
+<button class="rounded bg-primary px-6 py-3 text-base font-semibold text-white shadow-sm transition-transform duration-200 hover:scale-105 active:scale-95">Tüm Projeleri Görüntüle</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-6 lg:px-8 py-6 text-sm text-slate-600 dark:text-slate-400">
+<div class="container mx-auto flex items-center justify-between">
+<p>2025 Muhammed Can Erdemoğlu</p>
+<nav class="flex items-center gap-6">
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+</nav>
+</div>
+</footer>
+<script src="script/main.js"></script>
+</body></html>

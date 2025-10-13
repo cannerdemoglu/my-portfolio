@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<link href="style/main.css" rel="stylesheet"/>
+<script src="script/tailwind.config.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16 border-b border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-4">
+<div class="text-primary size-7">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_330)">
+<path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clipPath id="clip0_6_330">
+<rect fill="white" height="48" width="48"></rect>
+</clipPath>
+</defs>
+</svg>
+</div>
+<h2 class="text-lg font-bold text-slate-900 dark:text-white">Muhammed Can Erdemoğlu</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary" href="about-me.html">Hakkımda</a>
+<a class="text-sm font-medium hover:text-primary" href="projects.html">Projeler</a>
+<a class="text-sm font-medium hover:text-primary" href="contact.html">İletişim</a>
+</nav>
+<div class="flex items-center gap-4">
+<button data-toggle-theme class="flex items-center justify-center rounded-full size-9 bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-300 dark:hover:bg-slate-700">
+<span class="material-symbols-outlined text-xl">dark_mode</span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpxe19J3hUZO7ZlT9a7GCjuwUwIWi9f0NheIPD3--SHhS2Z5-4YepvRzblCWZGDo2zu05bOjs5Vfnc95LU9Hqmv_nB66BBcMQt9Cc5oLLRPpWJGEjvoG3HRcu5R70xTej5KYqALvY_uzGrexhgYbrlTWkWPzr460MYUc2wyrAFL5lJJ84_713sbD3s-ZdhwgVQ0l4ITeHuK4tsL8D_S1u0lZJ_MNRJW8P6y2EiPK6EQFGzevmWAPjPt_7__0pI1Yjn9ijexWE-Y6E");'></div>
+</div>
+</div>
+</div>
+</header>
+<button class="md:hidden inline-flex items-center justify-center rounded-lg h-10 w-10 m-4 self-end text-slate-700 dark:text-slate-200 hover:bg-slate-200/70 dark:hover:bg-slate-800/70" aria-controls="mobile-menu" aria-expanded="false" data-mobile-menu-toggle>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+</button>
+<nav id="mobile-menu" class="md:hidden hidden px-6 py-4 border-b border-slate-200/80 dark:border-slate-800/80 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur">
+  <div class="flex flex-col gap-3">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+  </div>
+</nav>
+<main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+<div class="flex flex-col">
+<h1 class="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">İletişim</h1>
+<p class="text-slate-600 dark:text-slate-400 mb-8">Herhangi bir soru veya fırsat için bana ulaşmaktan çekinmeyin. Yeni projeler ve işbirlikleri hakkında konuşmaya her zaman açığım.</p>
+<div class="space-y-6">
+<a class="flex items-center gap-4 group" href="mailto:alex.dev@email.com">
+<div class="flex items-center justify-center rounded-lg size-12 bg-slate-100 dark:bg-slate-800 group-hover:bg-primary/10 dark:group-hover:bg-primary/20 text-slate-500 dark:text-slate-400 group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-2xl">email</span>
+</div>
+<div>
+<h3 class="font-semibold text-slate-800 dark:text-slate-200">E-Posta</h3>
+<p class="text-slate-600 dark:text-slate-400 group-hover:text-primary transition-colors">alex.dev@email.com</p>
+</div>
+</a>
+<a class="flex items-center gap-4 group" href="#">
+<div class="flex items-center justify-center rounded-lg size-12 bg-slate-100 dark:bg-slate-800 group-hover:bg-primary/10 dark:group-hover:bg-primary/20 text-slate-500 dark:text-slate-400 group-hover:text-primary transition-colors">
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+</div>
+<div>
+<h3 class="font-semibold text-slate-800 dark:text-slate-200">LinkedIn</h3>
+<p class="text-slate-600 dark:text-slate-400 group-hover:text-primary transition-colors">linkedin.com/in/alex-dev</p>
+</div>
+</a>
+<a class="flex items-center gap-4 group" href="#">
+<div class="flex items-center justify-center rounded-lg size-12 bg-slate-100 dark:bg-slate-800 group-hover:bg-primary/10 dark:group-hover:bg-primary/20 text-slate-500 dark:text-slate-400 group-hover:text-primary transition-colors">
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path></svg>
+</div>
+<div>
+<h3 class="font-semibold text-slate-800 dark:text-slate-200">GitHub</h3>
+<p class="text-slate-600 dark:text-slate-400 group-hover:text-primary transition-colors">github.com/alex-dev</p>
+</div>
+</a>
+</div>
+</div>
+<div class="bg-slate-100 dark:bg-slate-800/50 p-8 rounded-xl">
+<form class="space-y-6">
+<div>
+<label class="sr-only" for="name">Adınız</label>
+<input class="form-input w-full rounded-lg border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 focus:border-primary focus:ring-primary placeholder-slate-400 dark:placeholder-slate-500" id="name" placeholder="Adınız" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="email">E-Posta</label>
+<input class="form-input w-full rounded-lg border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 focus:border-primary focus:ring-primary placeholder-slate-400 dark:placeholder-slate-500" id="email" placeholder="E-Posta" type="email"/>
+</div>
+<div>
+<label class="sr-only" for="subject">Konu</label>
+<input class="form-input w-full rounded-lg border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 focus:border-primary focus:ring-primary placeholder-slate-400 dark:placeholder-slate-500" id="subject" placeholder="Konu" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="message">Mesajınız</label>
+<textarea class="form-textarea w-full rounded-lg border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 focus:border-primary focus:ring-primary placeholder-slate-400 dark:placeholder-slate-500" id="message" placeholder="Mesajınız" rows="5"></textarea>
+</div>
+<div>
+<button class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-white font-semibold hover:bg-primary/90 transition-colors" type="submit">
+Mesaj Gönder
+</button>
+</div>
+</form>
+</div>
+</div>
+</main>
+<footer class="border-t border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-6 lg:px-8 py-6 text-sm text-slate-600 dark:text-slate-400">
+<div class="container mx-auto flex items-center justify-between">
+<p> 2025 Muhammed Can Erdemoğlu</p>
+<nav class="flex items-center gap-6">
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="about-me.html">Hakkımda</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="projects.html">Projeler</a>
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="contact.html">İletişim</a>
+</nav>
+</div>
+</footer>
+<script src="script/main.js"></script>
+</body></html>
