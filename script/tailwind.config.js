@@ -7,7 +7,7 @@
     theme: {
       extend: {
         colors: {
-          primary: '#1173d4',
+          primary: '#3955A2',
           'background-light': '#f6f7f8',
           'background-dark': '#101922',
         },

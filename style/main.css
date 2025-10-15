@@ -1,11 +1,84 @@
 .bg-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%),
-    url("https://lh3.googleusercontent.com/aida-public/AB6AXuBdU-9PWSntMxweWB9l09Wtc-aFaEAba6rabYurSFJEQwGR6cWlJVIG8_LSNlGowJv_s9d65cTzyRtv2BzBt5VnWH1dpg75EdUf3uzuxzLd6yt3Oo1oiMl7ZBxzYAn9RZfNL2Zh9so2H9DI2kDRfR-GS8FfSqdeamMJiyuO3-lB4uP_dhLIvI0dlb5CjtfEwGc0xUJoAVBJu6aQl1a1Va3VV1m82miAgI-couJ5X5KM2-7zWD-3AI0Ap2BHqzX_FIqKAFlSvNkhC-c");
+    url("../bg2.jpeg");
+}
+
+/* Hide scrollbars for horizontal carousels */
+.scrollbar-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;            /* Chrome, Safari */
 }
 .dark .bg-hero {
   background-image: linear-gradient(to top, rgba(16, 25, 34, 1) 0%, rgba(16, 25, 34, 0) 50%),
-    url("https://lh3.googleusercontent.com/aida-public/AB6AXuBdU-9PWSntMxweWB9l09Wtc-aFaEAba6rabYurSFJEQwGR6cWlJVIG8_LSNlGowJv_s9d65cTzyRtv2BzBt5VnWH1dpg75EdUf3uzuxzLd6yt3Oo1oiMl7ZBxzYAn9RZfNL2Zh9so2H9DI2kDRfR-GS8FfSqdeamMJiyuO3-lB4uP_dhLIvI0dlb5CjtfEwGc0xUJoAVBJu6aQl1a1Va3VV1m82miAgI-couJ5X5KM2-7zWD-3AI0Ap2BHqzX_FIqKAFlSvNkhC-c");
+    url("../bg2.jpeg");
 }
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* Mobile menu (hamburger) icon color per theme */
+[data-mobile-menu-toggle] {
+  color: #111 !important; /* light theme */
+}
+.dark [data-mobile-menu-toggle] {
+  color: #fff !important; /* dark theme */
+}
+
+/* Ensure SVG inherits the color and fills correctly */
+[data-mobile-menu-toggle] svg {
+  color: inherit !important;
+}
+[data-mobile-menu-toggle] svg path {
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 2 !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+/* Global typography overrides */
+html body {
+  font-size: 14px !important;
+}
+/* Enforce base text size across common elements */
+body, p, li, a, span, label, input, textarea, select, button, small, code, pre, blockquote {
+  font-size: 14px !important;
+}
+h1 {
+  font-size: 18px !important;
+  line-height: 1.3 !important;
+}
+h2 {
+  font-size: 16px !important;
+}
+h3 {
+  font-size: 14px !important;
+}
+h4, h5, h6 {
+  font-size: 12px !important;
+}
+
+/* Mobile typography: h1 16px, h2 14px, p 12px */
+@media (max-width: 640px) {
+  h1 { font-size: 16px !important; line-height: 1.3 !important; }
+  h2 { font-size: 14px !important; line-height: 1.3 !important; }
+  p  { font-size: 12px !important; line-height: 1.6 !important; }
+}
+
+@media (min-width: 768px) {
+  html body {
+    font-size: 14px !important;
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 18px !important;
+  }
+  h3, h4, h5, h6 {
+    font-size: 16px !important;
+  }
 }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uygulama Ödevi | Muhammed Can Erdemoğlu</title>
+<link rel="icon" type="image/png" href="../img/favicon.png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../style/main.css" rel="stylesheet"/>
+<script src="../script/tailwind.config.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200">
+<div class="flex flex-col min-h-screen">
+<header class="flex items-center justify-between border-b border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-6 lg:px-8 py-4">
+  <div class="flex items-center gap-4 min-w-0">
+    <div class="h-8 w-8 text-primary">
+      <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path>
+      </svg>
+    </div>
+    <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white"><a href="../index.html" class="hover:text-primary truncate max-w-[60vw] sm:max-w-none">Muhammed Can Erdemoğlu</a></h2>
+  </div>
+  <nav class="hidden md:flex items-center gap-8">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../index.html">Ana Sayfa</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../odevlerim.html">Ödevlerim</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+    <a href="../projects.html" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-sm transition-all hover:scale-105 active:scale-95">
+      <span class="truncate">Projeleri Gör</span>
+    </a>
+  </nav>
+  <button class="md:hidden inline-flex items-center justify-center rounded-lg h-10 w-10 text-slate-700 dark:text-slate-200 hover:bg-slate-200/70 dark:hover:bg-slate-800/70" aria-controls="mobile-menu" aria-expanded="false" data-mobile-menu-toggle>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+</header>
+<nav id="mobile-menu" class="md:hidden hidden px-6 py-4 border-b border-slate-200/80 dark:border-slate-800/80 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur">
+  <div class="flex flex-col gap-3">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../index.html">Ana Sayfa</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../odevlerim.html">Ödevlerim</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+    <a href="../projects.html" class="mt-2 inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Projeleri Gör</a>
+  </div>
+</nav>
+<main class="flex-1">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-10 flex flex-col md:flex-row items-start justify-between gap-4">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">Uygulama Ödevi</h1>
+          <p class="text-lg text-slate-600 dark:text-slate-400">Günlük yaşamda kullanılacak web/mobil uygulama tasarımı ve akışı.</p>
+        </div>
+        <div class="flex flex-wrap gap-2 md:gap-3 w-full md:w-auto md:justify-end">
+          <a href="#" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Figma</a>
+          <a href="../assets/uygulama/wireframe.pdf" download class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary/10 dark:bg-primary/20 text-primary text-sm font-semibold shadow-sm hover:bg-primary/20 dark:hover:bg-primary/30">Wireframe (PDF)</a>
+          <a href="../assets/uygulama/sitemap.pdf" download class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary/10 dark:bg-primary/20 text-primary text-sm font-semibold shadow-sm hover:bg-primary/20 dark:hover:bg-primary/30">Sitemap (PDF)</a>
+          <a href="../assets/uygulama/diagram.pdf" download class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary/10 dark:bg-primary/20 text-primary text-sm font-semibold shadow-sm hover:bg-primary/20 dark:hover:bg-primary/30">Akış Diyagramı (PDF)</a>
+        </div>
+      </div>
+
+      <section class="mb-10 space-y-6">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Anlatım</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+            <h3 class="font-semibold text-slate-900 dark:text-white mb-2">Kullanılan No Code Aracı</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Cursor vb.</p>
+          </div>
+          <div class="rounded-lg border border-slate-200 dark:border-slate-800 p-4 md:col-span-2">
+            <h3 class="font-semibold text-slate-900 dark:text-white mb-2">Kısa Proje Açıklaması</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Max. 1 sayfa proje özeti.</p>
+          </div>
+          <div class="rounded-lg border border-slate-200 dark:border-slate-800 p-4 md:col-span-3">
+            <h3 class="font-semibold text-slate-900 dark:text-white mb-2">Hangi Araçları Neden Seçtiniz?</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Kütüphane, uygulama tercihleri.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-10 space-y-4">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Hem Anlatım Hem Çizim</h2>
+        <ul class="list-disc pl-6 space-y-1 text-sm text-slate-600 dark:text-slate-400">
+          <li>Ekranlar (Sayfalar), Navigasyon Yapısı</li>
+          <li>Veri Akışı, Kullanıcı Rolleri</li>
+          <li>Giriş/Çıkış Noktaları, Sayfa Yapıları</li>
+        </ul>
+      </section>
+
+      <div class="h-0"></div>
+    </div>
+  </div>
+</main>
+<footer class="border-t border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-6 lg:px-8 py-6 text-sm text-slate-600 dark:text-slate-400">
+  <div class="container mx-auto flex flex-col items-center sm:flex-row sm:items-center justify-between gap-4 text-center sm:text-left">
+    <p> 2025 Muhammed Can Erdemoğlu</p>
+    <nav class="hidden sm:flex sm:flex-wrap sm:items-center sm:justify-center gap-4 sm:gap-6">
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../odevlerim.html">Ödevlerim</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+    </nav>
+    <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="mailto:252011020@ogr.alanya.edu.tr">252011020@ogr.alanya.edu.tr</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors hidden sm:inline-block" href="https://github.com/cannerdemoglu" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"/></svg>
+      </a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors hidden sm:inline-block" href="https://www.linkedin.com/in/cannerdemoglu" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"/></svg>
+      </a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors hidden sm:inline-block" href="https://instagram.com/cannerdemoglu" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M128,80a48,48,0,1,0,48,48A48.06,48.06,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32.06,32.06,0,0,1,128,160ZM176,56H80A24,24,0,0,0,56,80v96a24,24,0,0,0,24,24h96a24,24,0,0,0,24-24V80A24,24,0,0,0,176,56Zm8,120a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8ZM184,72a8,8,0,1,1-8-8A8,8,0,0,1,184,72Z"/></svg>
+      </a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors hidden sm:inline-block" href="https://pinterest.com/canbeyburdaa/" target="_blank" rel="noopener" aria-label="Pinterest">
+        <span class="material-symbols-outlined text-[20px] leading-none">push_pin</span>
+      </a>
+    </div>
+  </div>
+</footer>
+<script src="../script/main.js"></script>
+</div>
+</body></html>
