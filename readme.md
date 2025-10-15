@@ -5,7 +5,7 @@ Kişisel portföy sitemin kaynak kodları. Eğitim sürecimdeki ödev/proje çal
 ## İçerik ve Sayfalar
 - **Ana Sayfa** (`index.html`)
 - **Hakkımda** (`about-me.html`)
-- **Ödevlerim** (`odevlerim.html`)
+- **Ödevlerim** (`homework.html`)
 - **Projeler** (`projects.html`) — Ana sayfadan kartlar kaldırılmıştır; bölüm başlığı gezinme için durur.
 - **İletişim** (`contact.html`)
 - **Proje Detayları** (`project/ui-ux.html`, `project/uygulama-odevi.html`)
