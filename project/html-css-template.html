@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HTML CSS TEMPLATE Ödevi | Muhammed Can Erdemoğlu</title>
+<link rel="icon" type="image/png" href="../img/favicon.png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../style/main.css" rel="stylesheet"/>
+<script src="../script/tailwind.config.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200">
+<div class="flex flex-col min-h-screen">
+<header class="flex items-center justify-between border-b border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-6 lg:px-8 py-4">
+  <div class="flex items-center gap-4 min-w-0">
+    <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white"><a href="../index.html" class="hover:text-primary truncate max-w-[60vw] sm:max-w-none">Muhammed Can Erdemoğlu</a></h2>
+  </div>
+  <nav class="hidden md:flex items-center gap-8">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../index.html">Ana Sayfa</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../homework.html">Ödevlerim</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+    <a href="../projects.html" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-sm transition-all hover:scale-105 active:scale-95">
+      <span class="truncate">Projeleri Gör</span>
+    </a>
+  </nav>
+  <button class="md:hidden inline-flex items-center justify-center rounded-lg h-10 w-10 text-slate-700 dark:text-slate-200 hover:bg-slate-200/70 dark:hover:bg-slate-800/70" aria-controls="mobile-menu" aria-expanded="false" data-mobile-menu-toggle>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+</header>
+<nav id="mobile-menu" class="md:hidden hidden px-6 py-4 border-b border-slate-200/80 dark:border-slate-800/80 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur">
+  <div class="flex flex-col gap-3">
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../index.html">Ana Sayfa</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../homework.html">Ödevlerim</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+    <a href="../projects.html" class="mt-2 inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Projeleri Gör</a>
+  </div>
+</nav>
+<main class="flex-1">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-10 flex flex-col md:flex-row items-start justify-between gap-4">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white">HTML CSS TEMPLATE Ödevi</h1>
+        </div>
+      </div>
+      <div class="space-y-8 md:space-y-12">
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="space-y-3">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">Blog Preview Card</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/blog-preview-card-main" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/blog-preview-card-main" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800 md:order-first">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/results-summary-component" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+          <div class="space-y-3 md:order-last">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">QR Code Component</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/results-summary-component" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="space-y-3">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">Results Summary Component</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/qr-code-component/" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/qr-code-component/" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800 md:order-first">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/3-column-creview-card-component" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+          <div class="space-y-3 md:order-last">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">3 Column Preview Card Component</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/3-column-creview-card-component" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="space-y-3">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">Four Card Feature Section</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/four-card-feature-section" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/four-card-feature-section" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800 md:order-first">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/huddle-landing-page-with-a-single-introductry-section" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+          <div class="space-y-3 md:order-last">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">Huddle Landing Page with A Single Introductory Section</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/huddle-landing-page-with-a-single-introductry-section" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="space-y-3">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">Profile Card Component</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/profile-card-component" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/profile-card-component" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 items-center rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+          <div class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800 md:order-first">
+            <iframe loading="lazy" src="https://cannerdemoglu.github.io/html-css-odevler/single-price-grid-component" class="w-full aspect-[16/10] bg-white"></iframe>
+          </div>
+          <div class="space-y-3 md:order-last">
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">Single Price Grid Component</h3>
+            <p class="text-sm md:text-base text-slate-600 dark:text-slate-400">Kısa açıklama için yer. Önizleme bağlantısından sayfayı görüntüleyin.</p>
+            <a href="https://cannerdemoglu.github.io/html-css-odevler/single-price-grid-component" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-semibold shadow-sm">Önizlemeyi Aç</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="border-t border-slate-200/80 dark:border-slate-800/80 px-4 sm:px-6 lg:px-8 py-6 text-sm text-slate-600 dark:text-slate-400">
+  <div class="container mx-auto flex flex-col items-center sm:flex-row sm:items-center justify-between gap-4 text-center sm:text-left">
+    <p> 2025 Muhammed Can Erdemoğlu</p>
+    <nav class="hidden sm:flex sm:flex-wrap sm:items-center sm:justify-center gap-4 sm:gap-6">
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../about-me.html">Hakkımda</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../homework.html">Ödevlerim</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../projects.html">Projeler</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="../contact.html">İletişim</a>
+    </nav>
+    <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="mailto:252011020@ogr.alanya.edu.tr">252011020@ogr.alanya.edu.tr</a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="https://github.com/cannerdemoglu" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path></svg>
+      </a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="https://www.linkedin.com/in/cannerdemoglu" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+      </a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="https://instagram.com/cannerdemoglu" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M128,80a48,48,0,1,0,48,48A48.06,48.06,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32.06,32.06,0,0,1,128,160ZM176,56H80A24,24,0,0,0,56,80v96a24,24,0,0,0,24,24h96a24,24,0,0,0,24-24V80A24,24,0,0,0,176,56Zm8,120a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8ZM184,72a8,8,0,1,1-8-8A8,8,0,0,1,184,72Z"></path></svg>
+      </a>
+      <a class="hover:text-primary dark:hover:text-primary transition-colors" href="https://pinterest.com/canbeyburdaa/" target="_blank" rel="noopener" aria-label="Pinterest">
+        <svg class="h-5 w-5" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.39 2.11 6.28 5.06 7.42-.07-.63-.13-1.6.03-2.28.14-.6.92-3.82.92-3.82s-.23-.46-.23-1.14c0-1.07.62-1.87 1.39-1.87.66 0 .98.5.98 1.1 0 .67-.43 1.66-.65 2.57-.19.8.4 1.45 1.19 1.45 1.43 0 2.52-1.51 2.52-3.67 0-1.92-1.38-3.26-3.35-3.26-2.28 0-3.62 1.71-3.62 3.47 0 .69.27 1.43.61 1.83.07.08.08.15.06.23-.06.25-.2.8-.23.91-.04.14-.15.19-.28.14-1.04-.43-1.7-1.77-1.7-2.85 0-2.32 1.69-4.46 4.88-4.46 2.56 0 4.55 1.83 4.55 4.27 0 2.54-1.6 4.59-3.82 4.59-.75 0-1.45-.39-1.69-.84l-.46 1.74c-.17.66-.63 1.49-.94 1.99.71.22 1.46.34 2.24.34 4.42 0 8-3.58 8-8S12.42 0 8 0z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+<script src="../script/main.js"></script>
+</div>
+</body></html>
